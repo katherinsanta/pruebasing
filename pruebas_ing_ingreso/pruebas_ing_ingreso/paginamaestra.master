@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="paginamaestra.master.cs" Inherits="paginamaestra" %>
+
+<%@ Register Src="~/control de usuario/header.ascx" TagPrefix="uc1" TagName="Header"  %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+
+         <div style="width: 100%; height: 20%;">
+            <uc1:header ID="Header1" runat="server"></uc1:header>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+
+
+    </div>
+    </form>
+</body>
+</html>
