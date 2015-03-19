@@ -11,7 +11,7 @@
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="estilos/estilos%20master%20page/banner.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
     
