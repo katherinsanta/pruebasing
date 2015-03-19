@@ -63,6 +63,7 @@
     <Content Include="control de usuario\header.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Default2.aspx" />
+    <Content Include="estilos\controles de usuario\cntuser.css" />
     <Content Include="estilos\estilos master page\banner.css" />
     <Content Include="imagenes\banner.png" />
     <Content Include="imagenes\banner1.1.png" />
