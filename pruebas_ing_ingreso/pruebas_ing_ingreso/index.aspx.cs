@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace pruebas_ing_ingreso
 {
     public partial class _in : System.Web.UI.Page
