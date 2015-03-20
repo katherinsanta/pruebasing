@@ -1,6 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="paginamaestra.master.cs" Inherits="paginamaestra" %>
 
 <%@ Register Src="~/control de usuario/header.ascx" TagPrefix="uc1" TagName="Header"  %>
+<%@ Register Src="~/control de usuario/footer.ascx" TagPrefix="uc1" TagName="footer" %>
+
 
 
 <!DOCTYPE html>
@@ -31,7 +33,10 @@
             
         </asp:ContentPlaceHolder>
 
+        <footer>
 
+            <uc1:footer runat="server" ID="footer" />
+        </footer>
     </div>
     </form>
        

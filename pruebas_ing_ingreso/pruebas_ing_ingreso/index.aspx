@@ -110,10 +110,37 @@
                 <td>
                     <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
                 </td>
-                <td>&nbsp;</td>
+                <td>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+              
+
+
             </tr>
         </table>
-    
+     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+                   <Columns>
+                       <asp:BoundField DataField="valeasignado" HeaderText="Numero vale " SortExpression="valeasignado" />
+                       <asp:BoundField DataField="idsolicitud" HeaderText="Numero solicitud" SortExpression="idsolicitud" />
+                       <asp:BoundField DataField="idconductor" HeaderText="Conductor" SortExpression="idconductor" />
+                       <asp:BoundField DataField="direccionorig" HeaderText="Direccion Origen" SortExpression="direccionorig" />
+                       <asp:BoundField DataField="direccionDest" HeaderText="Direccion Destino" SortExpression="direccionDest" />
+                       <asp:BoundField DataField="estado" HeaderText="Estado" SortExpression="estado" />
+                       <asp:BoundField DataField="horaServicio" HeaderText="Hora servicio" SortExpression="horaServicio" />
+                       <asp:BoundField DataField="movil" HeaderText="Movil" SortExpression="movil" />
+                       <asp:BoundField DataField="nombrePasajero" HeaderText="Nombre del Pasajero" SortExpression="nombrePasajero" />
+                   </Columns>
+        </asp:GridView>
     </div>
     </form>
 </body>
