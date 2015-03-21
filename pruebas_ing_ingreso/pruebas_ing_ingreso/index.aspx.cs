@@ -17,7 +17,7 @@ namespace pruebas_ing_ingreso
 {
     public partial class _in : System.Web.UI.Page
     {
-      SqlConnection conexion=new SqlConnection(ConfigurationManager.ConnectionStrings["cn"].ConnectionString);
+      //SqlConnection conexion=new SqlConnection(ConfigurationManager.ConnectionStrings["cn"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
             if (RadioButton1.Checked)
@@ -33,22 +33,22 @@ namespace pruebas_ing_ingreso
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                conexion.Open();
+        //    try
+        //    {
+        //        conexion.Open();
 
-            }
-            catch (SqlException sqlex)
-            {
+        //    }
+        //    catch (SqlException sqlex)
+        //    {
 
-            }
-            catch (Exception ex)
-            { 
+        //    }
+        //    catch (Exception ex)
+        //    { 
             
             
-            }
+        //    }
 
-            Label2.Text = " ";
+        //    Label2.Text = " ";
         }
     }
 }
