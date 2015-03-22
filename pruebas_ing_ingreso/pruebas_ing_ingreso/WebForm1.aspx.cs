@@ -17,8 +17,10 @@ namespace pruebas_ing_ingreso
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString();
-             
-
+            lblh2.Text=DateTime.Now.ToLongTimeString();
+            Label2.Text = DateTime.Now.ToLongDateString();
+            //DateTime hora1 = new DateTime(); //http://foro.elhacker.net/net/comparar_horas_fechas_c_solucionado-t235042.0.html
+            //int hinicial = Convert.ToInt32(DateTime.Now.ToString(""));
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
@@ -36,7 +38,7 @@ namespace pruebas_ing_ingreso
                 {
                     e.Row.ForeColor = System.Drawing.Color.Yellow;
                     e.Row.BackColor = System.Drawing.Color.Red;
-                
+                    //http://geekswithblogs.net/jaullo/archive/2011/05/06/colorear-celdas-y-filas-en-un-gridview.aspx de a qui hay un ejemplo para uso de imagenes
                 
                 }
             }

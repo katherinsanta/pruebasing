@@ -20,6 +20,9 @@
                 <br />
                 <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick">
                 </asp:Timer>
+                <asp:Label ID="lblh2" runat="server" Text="Label"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                 <br />
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" OnDataBound="Timer1_Tick" OnRowDataBound="GridView1_RowDataBound">
                     <Columns>
