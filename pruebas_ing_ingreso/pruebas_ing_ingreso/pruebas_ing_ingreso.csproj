@@ -61,7 +61,6 @@
     <Content Include="bin\pruebas_ing_ingreso.pdb" />
     <Content Include="control de usuario\footer.ascx" />
     <Content Include="control de usuario\header.ascx" />
-    <Content Include="Default2.aspx" />
     <Content Include="estilos\estilos master page\banner.css" />
     <Content Include="imagenes\banner.png" />
     <Content Include="imagenes\banner1.1.png" />
@@ -79,10 +78,6 @@
     </Compile>
     <Compile Include="control de usuario\header.ascx.cs">
       <DependentUpon>header.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default2.aspx.cs">
-      <DependentUpon>Default2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.cs">

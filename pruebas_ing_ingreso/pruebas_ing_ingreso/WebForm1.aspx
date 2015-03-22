@@ -21,7 +21,7 @@
                 <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick">
                 </asp:Timer>
                 <br />
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" OnDataBound="Timer1_Tick" OnRowDataBound="GridView1_RowDataBound">
                     <Columns>
                         <asp:BoundField DataField="direccionOrig" HeaderText="direccionOrig" SortExpression="direccionOrig" />
                         <asp:BoundField DataField="direccionDest" HeaderText="direccionDest" SortExpression="direccionDest" />
@@ -37,7 +37,7 @@
                 </asp:GridView>
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:siatConnectionString %>" SelectCommand="SELECT TOP (100) direccionOrig, direccionDest, nombrePasajero,fechaServicio, estado, valeAsignado, nombreConductor, horaServicio, movil, placa 
 FROM PDV_SolicitudesTransporte 
-WHERE (CAST(fechaServicio AS date) = '20150321') AND (estado IN (2, 9)) order by (fechaServicio )"></asp:SqlDataSource>
+WHERE (CAST(fechaServicio AS date) = '20150321') AND (estado IN (2, 9)) and (convert(char(5),horaServicio,108)>'11:00') order by (horaServicio )"></asp:SqlDataSource>
             </ContentTemplate>
         </asp:UpdatePanel>
     
