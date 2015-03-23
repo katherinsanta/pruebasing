@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="pruebas_ing_ingreso._in" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="index" %>
+<%--<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>--%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -122,13 +122,8 @@
                     <br />
                 </td>
             </tr>
-            <tr>
-              
-
-
-            </tr>
-        </table>
-     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+            </table>
+     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" HorizontalAlign="Justify">
                    <Columns>
                        <asp:BoundField DataField="valeasignado" HeaderText="Numero vale " SortExpression="valeasignado" />
                        <asp:BoundField DataField="idsolicitud" HeaderText="Numero solicitud" SortExpression="idsolicitud" />

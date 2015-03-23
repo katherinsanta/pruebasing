@@ -3,3 +3,11 @@ C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\
 C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\obj\Debug\pruebas_ing_ingreso.csprojResolveAssemblyReference.cache
 C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\obj\Debug\pruebas_ing_ingreso.dll
 C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\obj\Debug\pruebas_ing_ingreso.pdb
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\Newtonsoft.Json.dll
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Net.Http.Formatting.dll
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Web.Http.dll
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Web.Http.WebHost.dll
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\Newtonsoft.Json.xml
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Net.Http.Formatting.xml
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Web.Http.xml
+C:\Users\Venancio.Prada\Documents\GitHub\pruebagitcorp2gext\pruebas_ing_ingreso\pruebas_ing_ingreso\bin\System.Web.Http.WebHost.xml
